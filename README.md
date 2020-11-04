@@ -1,4 +1,4 @@
-# Sticky-Jira-Header
+# Jira Sticky Header
 Chrome extension to make issue headers in Jira sticky.
 
 ## Install
