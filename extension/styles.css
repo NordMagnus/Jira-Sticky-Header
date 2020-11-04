@@ -1,0 +1,22 @@
+ /* HEIGHT = 138 */
+/* HEADER with drop-shadow on scroll */
+.sticky-issue-header {
+  position: sticky !important;
+  -webkit-position: sticky;
+  top: 0px; 
+  z-index: 2 !important;
+  /* fix weird flickering issue in chrome: https://stackoverflow.com/a/22224884/286685 */
+  -webkit-backface-visibility: hidden;
+}
+
+.custom-issue-header {
+  background-color: White !important;
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0px;
+  z-index: 4 !important;
+}
+
+.shadow {
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
